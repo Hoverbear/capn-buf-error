@@ -1,0 +1,12 @@
+[package]
+name = "capn-buf-test"
+version = "0.0.1"
+authors = ["Andrew Hobden <andrew@hoverbear.org>"]
+build = "build.rs"
+
+[build-dependencies]
+capnpc = "*"
+
+[dependencies]
+capnp = "*"
+bytes = "*"
